@@ -35,9 +35,9 @@ joined as (
         ordini.data_ordine,
         
         coalesce(transazioni.data_transazione, null) as data_transazione,
-        coalesce(transazioni.importo_transazione, 0) as importo_transazione,
-        coalesce(abbonamenti.inizio_abbonamento, null) as inizio_abbonamento,
-        coalesce(abbonamenti.fine_abbonamento, null) as fine_abbonamento,
+        coalesce(transazioni.importo, 0) as importo_transazione,
+        coalesce(abbonamenti.iniziato_il, null) as inizio_abbonamento,
+        coalesce(abbonamenti.finito_il, null) as fine_abbonamento,
         coalesce(rinnovi.attivo, null) as rinnovo_attivo
 
     from ordini
