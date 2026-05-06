@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: stg_BigQuery__abbonamenti
+  - name: stg_BigQuery__ordini
+  - name: stg_BigQuery__rinnovi
+  - name: stg_BigQuery__transazioni
+  - name: stg_BigQuery__utenti
+  - name: stg_BigQuery__coupon
+  - name: stg_BigQuery__metodi
+  - name: stg_BigQuery__piani

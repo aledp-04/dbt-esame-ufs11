@@ -1,0 +1,15 @@
+sources:
+    - name: BigQuery
+      description: replica DWH
+      database: eco-rune-459817-m9
+      schema: raw_pay
+      tables:
+          - name: ordini
+          - name: coupon
+          - name: metodi
+          - name: piani
+          - name: utenti
+          - name: abbonamenti 
+          - name: transazioni
+          - name: rinnovi
+          
